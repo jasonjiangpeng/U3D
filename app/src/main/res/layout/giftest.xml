@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.aotomdemo.lostjason.myapplication.gif.MyGifView
+        android:id="@+id/myGifView_demo"
+        is_scale="true"
+        res_id ="@raw/gif1"
+        android:layout_width="282px"
+        android:layout_height="161px"
+        android:layout_x="708px"
+        android:layout_y="401px" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ting 婷"
+        android:onClick="onclicka"/>
+</LinearLayout>
